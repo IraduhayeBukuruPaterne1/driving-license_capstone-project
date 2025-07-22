@@ -8,18 +8,16 @@ A full-stack digital system designed to improve the efficiency, security, and ac
 
 The current manual licensing process in Burundi is centralized, paper-based, and prone to delays and fraud. This system solves these issues by:
 
-✅ Allowing **online account creation and license applications**  
-✅ **OTP-based National ID verification** to ensure only legitimate applicants apply  
-✅ **Automatic retrieval of personal details** after ID verification  
-✅ **Multiple document uploads** (e.g., driving school and medical certificates)  
-✅ **Integrated payment step** before submitting applications  
-✅ **Admin dashboard** to approve or reject applications, with instant notifications to applicants  
-✅ **QR-code-embedded digital license** for real-time roadside verification  
-✅ **Biometric fingerprint verification** at pickup centers to ensure secure license collection  
+ Allowing **online account creation and license applications**  
+ **OTP-based National ID verification** to ensure only legitimate applicants apply  
+ **Automatic retrieval of personal details** after ID verification  
+ **Multiple document uploads** (e.g., driving school and medical certificates)  
+ **Integrated payment step** before submitting applications  
+ **Admin dashboard** to approve or reject applications, with instant notifications to applicants  
+ **QR-code-embedded digital license** for real-time roadside verification  
+ **Biometric fingerprint verification** at pickup centers to ensure secure license collection  
 
 The prototype was built and tested locally using **Docker** to simulate a production environment.
-
----
 
 ## **Tech Stack**
 
@@ -30,8 +28,6 @@ The prototype was built and tested locally using **Docker** to simulate a produc
 - **QR Code:** `qrcode` npm library for dynamic license QR generation
 - **Biometric Verification:** Simulated fingerprint matching module
 - **Containerization:** [Docker](https://www.docker.com/) for local development and consistent testing
-
----
 
 ## **Core Functionalities**
 
@@ -57,8 +53,6 @@ The prototype was built and tested locally using **Docker** to simulate a produc
 
 6. **Secure Pickup**
    - Fingerprint verification (simulated) ensures that only the correct applicant collects the license.
-
----
 
 ## **Installation & Setup**
 
