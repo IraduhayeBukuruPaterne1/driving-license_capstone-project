@@ -37,12 +37,47 @@ cd driving-license_capstone-project
 npm install
 
 3️⃣ Configure Environment Variables
-Create a .env.local file in the root folder and add:
 
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-TWILIO_ACCOUNT_SID=your_twilio_sid
-TWILIO_AUTH_TOKEN=your_twilio_token
+This project uses two .env files to store sensitive credentials.
+
+1️⃣ Backend (.env)
+Create a .env file in the root folder with the following placeholders:
+
+SUPABASE_URL=https://your-supabase-project-url
+SUPABASE_ANON_KEY=your-anon-key
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+
+PORT=8090
+NODE_ENV=development
+JWT_SECRET=your-jwt-secret
+FRONTEND_URL=http://localhost:3000
+
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX_REQUESTS=100
+SMS_PROVIDER=mock
+
+BACKEND_API_URL=http://localhost:8090
+
+2️⃣ Frontend (.env.local)
+Create a .env.local file in the root folder with:
+
+NEXT_PUBLIC_BACKEND_API_URL=http://localhost:8090/api
+NEXT_PUBLIC_ENVIRONMENT=development
+
+NEXT_PUBLIC_SUPABASE_URL=https://your-supabase-project-url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+NEXT_PUBLIC_SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+
+NEXT_PUBLIC_ESIGNET_API_URL=http://localhost:8089
+NEXT_PUBLIC_MOCK_IDENTITY_URL=http://localhost:8088
+
+NEXT_PUBLIC_APP_NAME="DLV Burundi"
+NEXT_PUBLIC_APP_DESCRIPTION="Digital License Verification System for Burundi"
+
+NEXT_PUBLIC_ENABLE_NATIONAL_ID_AUTH=true
+NEXT_PUBLIC_MOCK_OTP_ENABLED=true
+NEXT_PUBLIC_DEFAULT_OTP=123456
+
 
 4️⃣ Run the Application
 With Docker:
@@ -140,6 +175,14 @@ Secure online payment gateway for license fees
 Iraduhaye Bukuru Paterne
 BSc. in Software Engineering – African Leadership University
 📧 p.iraduhaye@alustudent.com
+
+
+<img width="1366" height="768" alt="Screenshot 2025-07-21 214247" src="https://github.com/user-attachments/assets/afc2d8fb-7888-45e2-bfde-6ab1e91d8800" />
+<img width="1366" height="768" alt="Screenshot 2025-07-21 213436" src="https://github.com/user-attachments/assets/4b8856a8-3bd7-4254-8ddf-92dd7ad23612" />
+<img width="1366" height="768" alt="Screenshot 2025-07-21 144641" src="https://github.com/user-attachments/assets/28f750c3-a896-490d-9281-514f77a9ac9e" />
+
+You can find more screenshots here:
+https://drive.google.com/drive/folders/1_VhW7WWXnrBEas0JeJMWBM6U3M5oaBTg?usp=sharing
 
 
 
