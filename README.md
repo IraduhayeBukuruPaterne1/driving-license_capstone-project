@@ -177,9 +177,9 @@ BSc. in Software Engineering – African Leadership University
 📧 p.iraduhaye@alustudent.com
 
 
-<img width="1366" height="768" alt="Screenshot 2025-07-21 214247" src="https://github.com/user-attachments/assets/afc2d8fb-7888-45e2-bfde-6ab1e91d8800" />
-<img width="1366" height="768" alt="Screenshot 2025-07-21 213436" src="https://github.com/user-attachments/assets/4b8856a8-3bd7-4254-8ddf-92dd7ad23612" />
-<img width="1366" height="768" alt="Screenshot 2025-07-21 144641" src="https://github.com/user-attachments/assets/28f750c3-a896-490d-9281-514f77a9ac9e" />
+<img width="1366" height="768" alt="Screenshot 2025-07-21 214247" src="https://github.com/user-attachments/assets/578c0a5b-3adc-4081-bae7-09d14cddf6f0" />
+<img width="1366" height="768" alt="Screenshot 2025-07-21 213436" src="https://github.com/user-attachments/assets/f0678514-f0d6-4241-85b1-28dfc6338bac" />
+<img width="1366" height="768" alt="Screenshot 2025-07-21 144641" src="https://github.com/user-attachments/assets/46c0a58a-c518-4f14-8e04-beb68fbea58b" />
 
 You can find more screenshots here:
 https://drive.google.com/drive/folders/1_VhW7WWXnrBEas0JeJMWBM6U3M5oaBTg?usp=sharing
